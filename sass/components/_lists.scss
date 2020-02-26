@@ -1,8 +1,6 @@
 .list {
-    border-top: 1px solid $primary-color-bg;
-
-    &> .row {
-        padding:0 20px;
+    &> .list-body {
+        padding: 0 20px;
 
         line-height: 50px;
 
@@ -40,19 +38,26 @@
 }
 
 .list-small {
-    &> .row {
+    &> .list-body {
         display: inline-block;
 
-        margin: 0 2%;
-        padding: 10px 0;
-        width: 45%;
+        margin: 0 auto;
+        padding: 10px 10px;
+        width: 98%;
 
         border-bottom: 1px solid $primary-color-bg;
 
+        &:hover {
+            background-color: $site-bg-color;
+        }
 
-        &> .cell {
+        &> .list-cell {
             width: 49%;
             display: inline-block;
         }
+    }
+
+    &> .list-body.full {
+        width: 100%;
     }
 }

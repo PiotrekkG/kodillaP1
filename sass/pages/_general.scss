@@ -1,8 +1,8 @@
 #page {
-    display: flow-root;
-    margin: 65px auto 0 auto;
-    max-width: 1200px;
-    min-width: 795px;
+    margin-top: 65px;
+    // display: flow-root;
+    // max-width: 1200px;
+    // min-width: 795px;
 }
 
 #menu {
@@ -52,5 +52,11 @@
 
             font-size: 0.7em;
         }
+    }
+}
+
+@media (max-width: 767px){
+    #menu {
+        font-size: 0.9em;
     }
 }

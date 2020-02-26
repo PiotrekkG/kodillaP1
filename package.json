@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PiotrekkG/kodillaP1.git"
+    "url": "git+https://github.com/PixeStudio/kodillaIndywidualny.git"
   },
-  "author": "Piotr Greczka",
+  "author": "Darek",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PiotrekkG/kodillaP1/issues"
+    "url": "https://github.com/PixeStudio/kodillaIndywidualny/issues"
   },
-  "homepage": "https://github.com/PiotrekkG/kodillaP1#readme",
+  "homepage": "https://github.com/PixeStudio/kodillaIndywidualny#readme",
   "dependencies": {}
 }

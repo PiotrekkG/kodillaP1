@@ -6,7 +6,7 @@
     display: inline-block;
 
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    vertical-align: middle;
+    // vertical-align: middle;
     font-size: 1.15rem;
     line-height: 1.8em;
     font-weight: lighter;
@@ -15,16 +15,17 @@
 
     &:hover {
         opacity: 0.85;
-        @include box-shadow(0,0,4px,gray)
+        cursor: pointer;
+        @include box-shadow(0,0,4px,gray);
     }
 }
 
 .btn-small {
-    padding: 0 0.5rem;
+    padding: 0.3rem;
 
-    font-size: 1rem;
-    line-height: 1.8em;
-    height: $height-normal * 0.4;
+    font-size: 0.8rem;
+    line-height: unset;
+    height: unset;
 }
 
 .btn-big {

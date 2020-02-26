@@ -11,7 +11,7 @@
     @include border-radius(2px);
 
     &> .header {
-        padding:15px;
+        padding: 15px;
 
         font-family: 'Didact Gothic', Arial, Helvetica, sans-serif;
         text-transform: uppercase;
@@ -22,8 +22,11 @@
     &> .body {
         padding: 20px 40px;
         
-        width: 700px;
         margin: auto;
+
+        img {
+            width: 100%;
+        }
     }
     &> .body:before {
         content: '';
